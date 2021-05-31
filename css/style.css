@@ -1,0 +1,69 @@
+label,input{
+    display: block;
+  
+}
+#container table{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    border: 3px solid aqua;
+    margin-top: 20px;
+
+}
+header{
+    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight:60px ;
+    margin-top: 10px;
+    color: rgb(49, 92, 160);
+    text-shadow: 3px 4px 5px wheat;
+}
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+      background-color: darksalmon;
+  }
+ main {
+   
+    background-image: url("https://img.freepik.com/free-vector/colorful-watercolor-rainbow-background_125540-151.jpg?size=626&ext=jpg");
+  background-repeat: no-repeat;
+  background-size: 2000px;
+    font-family: cursive;
+    font-size: 24px;
+    border: 10px solid black;
+    padding: 2rem 1rem;
+
+    /* background: linear-gradient(to top, rgba(#cffffe, 0.3), rgba(#f9f7d9, 0.3), rgba(#fce2ce, 0.3), rgba(#ffc1f3, 0.3)); */
+    border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23cffffe' /%3E%3Cstop offset='25%25' stop-color='%23f9f7d9' /%3E%3Cstop offset='50%25' stop-color='%23fce2ce' /%3E%3Cstop offset='100%25' stop-color='%23ffc1f3' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3'/%3E %3C/svg%3E") 1;
+  }
+  form{
+    border: 10px solid black;
+     
+          display: block;
+          width: 50%;
+          margin-left : 25%
+      
+  }
+  form label,input,select{
+    width: 50%;
+    margin-left : 25%
+  }
+  #submit{
+      font-size: 20px;
+      background-color: rgba(118, 119, 117, 0.616);
+      border-top: 2px solid springgreen;
+      border-left: 2px solid salmon;
+      border-bottom: 2px solid rgb(137, 231, 231);
+      border-right: 2px solid darksalmon;
+      padding: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-bottom: 12px;
+      margin-top: 12px;
+      border-radius: 25%;
+  }
+  #container img{
+      width: 50px;
+      height: 50px;
+  }
